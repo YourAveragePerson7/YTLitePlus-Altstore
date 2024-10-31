@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 def fetch_latest_release(repo_url, keyword):
-    api_url = f"https://api.github.com/repos/{repo_url}/releases"
+    api_url = f"https://api.github.com/repos/YourAveragePerson7/YTLitePlus/releases"
     headers = {
         "Accept": "application/vnd.github+json",
     }
